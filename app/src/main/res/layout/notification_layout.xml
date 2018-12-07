@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notif_layout"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="9"
+    android:useDefaultMargins="true">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/icon1"
+        android:layout_gravity="center_vertical" />
+
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:id="@+id/image_hunger"
+        android:src="@mipmap/ico_hunger"
+        android:layout_gravity="center_vertical" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/progress_hunger"
+        android:max="100"
+        android:progress="30"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:id="@+id/image_energy"
+        android:src="@mipmap/ico_energy"
+        android:layout_gravity="center_vertical" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/progress_energy"
+        android:progress="50"
+        android:max="100"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:id="@+id/image_happiness"
+        android:src="@mipmap/ico_happiness"
+        android:layout_gravity="center_vertical" />
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/progress_happiness"
+        android:max="100"
+        android:progress="80"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_weight="1"
+        android:id="@+id/image_health"
+        android:src="@mipmap/ico_health"
+        android:layout_gravity="center_vertical" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/progress_health"
+        android:progress="100"
+        android:max="100"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

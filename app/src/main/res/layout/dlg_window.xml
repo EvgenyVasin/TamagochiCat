@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/foodLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/Base.ThemeOverlay.AppCompat.Dark"
+    android:background="#c5c5c5">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b8b5b5"
+        android:gravity="right">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="New Text"
+            android:id="@+id/dlg_text_title"
+            android:background="#b8b5b5"
+            android:layout_gravity="left|center_vertical"
+            android:autoText="false"
+            android:elegantTextHeight="false"
+            android:gravity="center_vertical"
+            android:paddingLeft="40dp" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_button"
+            android:id="@+id/dlg_btn_close"
+            android:src="@mipmap/ico_close"
+            android:layout_gravity="center_vertical|right"
+            android:scaleType="fitStart"
+            android:foregroundGravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:background="#d6d6d6"
+        android:layout_gravity="top"
+        android:clickable="false"
+        android:focusable="false" />
+
+</LinearLayout>

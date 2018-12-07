@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popupLayout"
+    android:orientation="horizontal"
+    android:weightSum="9">
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ico_food"
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_food"
+        android:layout_marginTop="45dp"
+        android:onClick="onClickpopupWindow" />
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ico_hospital"
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_hospital"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickpopupWindow"/>
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ico_sleep"
+        android:id="@+id/btn_sleep"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickpopupWindow"/>
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ico_home"
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_home"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickpopupWindow"/>
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@mipmap/ico_setting"
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_setting"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickpopupWindow"/>
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ico_close"
+        android:background="@drawable/round_button"
+        android:id="@+id/btn_close"
+        android:layout_marginTop="45dp"
+        android:onClick="onClickpopupWindow"/>
+
+</LinearLayout>
